@@ -98,18 +98,18 @@ AbsintheSocket instance
 
 #### Parameters
 
--   `absintheSocket` **AbsintheSocket** 
--   `onError` **$ElementType&lt;Observer&lt;Result, Variables>, `"onError"`>** 
--   `onStart` **$ElementType&lt;Observer&lt;Result, Variables>, `"onStart"`>** 
+*   `absintheSocket` **AbsintheSocket** 
+*   `onError` **$ElementType\<Observer\<Result, Variables>, `"onError"`>?** 
+*   `onStart` **$ElementType\<Observer\<Result, Variables>, `"onStart"`>?** 
 
 ## References
 
--   [Absinthe Phoenix Socket](https://github.com/absinthe-graphql/absinthe-socket/tree/master/packages/socket)
--   **Apollo Link**
-    -   [Apollo Client](http://apollo-link-docs.netlify.com/docs/link/#apollo-client)
-    -   [Terminating Links](http://apollo-link-docs.netlify.com/docs/link/overview.html#terminating)
-    -   [Directional Composition](http://apollo-link-docs.netlify.com/docs/link/composition.html#directional)
-    -   [Http Link](http://apollo-link-docs.netlify.com/docs/link/links/http.html)
+*   [Absinthe Phoenix Socket](https://github.com/absinthe-graphql/absinthe-socket/tree/master/packages/socket)
+*   **Apollo Link**
+    *   [Apollo Client](http://apollo-link-docs.netlify.com/docs/link/#apollo-client)
+    *   [Terminating Links](http://apollo-link-docs.netlify.com/docs/link/overview.html#terminating)
+    *   [Directional Composition](http://apollo-link-docs.netlify.com/docs/link/composition.html#directional)
+    *   [Http Link](http://apollo-link-docs.netlify.com/docs/link/links/http.html)
 
 ## License
 

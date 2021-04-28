@@ -34,7 +34,7 @@
 
 ## Examples
 
--   **relay-environment.js**
+*   **relay-environment.js**
 
 ```javascript
 // @flow
@@ -64,8 +64,8 @@ instance
 
 #### Parameters
 
--   `absintheSocket` **AbsintheSocket** 
--   `onError` **function (error: [Error](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)): any** 
+*   `absintheSocket` **AbsintheSocket** 
+*   `onError` **function (error: [Error](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)): any?** 
 
 Returns **FetchFunction** 
 
@@ -76,8 +76,8 @@ instance
 
 #### Parameters
 
--   `absintheSocket` **AbsintheSocket** 
--   `onRecoverableError` **function (error: [Error](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)): any** 
+*   `absintheSocket` **AbsintheSocket** 
+*   `onRecoverableError` **function (error: [Error](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)): any?** 
 
 Returns **SubscribeFunction** 
 
@@ -88,18 +88,18 @@ disposable has started or to `false` otherwise
 
 #### Parameters
 
--   `disposable` **Disposable** 
+*   `disposable` **Disposable** 
 
-Returns **[Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)&lt;[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)>** 
+Returns **[Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)<[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)>** 
 
 ## References
 
--   [Absinthe Socket](https://github.com/absinthe-graphql/absinthe-socket/tree/master/packages/socket)
--   **Relay**
-    -   [Environment](https://facebook.github.io/relay/docs/relay-environment.html)
-    -   [NetworkLayer](https://facebook.github.io/relay/docs/network-layer.html)
-    -   [FetchFunction](https://github.com/facebook/relay/blob/master/packages/relay-runtime/network/RelayNetworkTypes.js#L79)
-    -   [SubscribeFunction](https://github.com/facebook/relay/blob/master/packages/relay-runtime/network/RelayNetworkTypes.js#L93)
+*   [Absinthe Socket](https://github.com/absinthe-graphql/absinthe-socket/tree/master/packages/socket)
+*   **Relay**
+    *   [Environment](https://facebook.github.io/relay/docs/relay-environment.html)
+    *   [NetworkLayer](https://facebook.github.io/relay/docs/network-layer.html)
+    *   [FetchFunction](https://github.com/facebook/relay/blob/master/packages/relay-runtime/network/RelayNetworkTypes.js#L79)
+    *   [SubscribeFunction](https://github.com/facebook/relay/blob/master/packages/relay-runtime/network/RelayNetworkTypes.js#L93)
 
 ## License
 
